@@ -5,13 +5,13 @@ class A{
     }
     
 }
-class B {
+class B extends A {
     public void Bike()
     {
         System.out.println("Duke Bike");
     }
 }
-class C extends A{
+class C extends B{
     public void Cycle(){
 
     
